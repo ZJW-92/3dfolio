@@ -9,3 +9,4 @@
 - ***_[Three.js](https://threejs.org/)_***: _A powerful 3D graphics library for rendering and animating the 3D model._
 - ***_[Framer Motion](https://www.framer.com/motion/)_*** : _The most popular library used to bring your React website to life with animations._
 - ***_[React Three Fiber](https://docs.pmnd.rs/react-three-fiber/getting-started/introduction)_***: _A popular library for creating 3D graphics with ThreeJS in React._
+- ***_[EmailJS](https://www.emailjs.com/)_***: _Send email directly from your client-side Javascript code._
