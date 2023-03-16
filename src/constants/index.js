@@ -64,7 +64,7 @@ const services = [
   },
 
   {
-    title: "QA Engineer",
+    title: "Data Analyst",
     icon: creator,
   },
 
