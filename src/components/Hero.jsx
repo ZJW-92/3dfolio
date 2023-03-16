@@ -19,8 +19,10 @@ const Hero = () => {
             Welcome to <span className='text-[#915EFF]'>Zhijie's </span>Portfolio
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-         Born in Shanghai, China 🇨🇳 and studied in Gothenburg, Sweden 🇸🇪. <br/>
+         Born in Shanghai and studied in both Sweden 🇸🇪 and China 🇨🇳. <br/>
+         Industrial Economics postgraduate at University of Shanghai for Science & Technology in 2017. <br/>
          Software Engineering and Management graduate at University of Gothenburg in 2022. <br/>
+
           </p>
         </div>
       </div>
