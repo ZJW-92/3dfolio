@@ -180,7 +180,7 @@ const experiences = [
   
 
   {
-    title: "Graduate of Software Engineering and Management",
+    title: "Graduate in Software Engineering and Management",
     company_name: "University of Gothenburg",
     icon: gbg,
     iconBg: "#383E56",

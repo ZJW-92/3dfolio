@@ -20,8 +20,8 @@ const Hero = () => {
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
          Born in Shanghai and studied in both Sweden 🇸🇪 and China 🇨🇳. <br/>
-         Industrial Economics postgraduate at University of Shanghai for Science & Technology in 2017. <br/>
-         Software Engineering and Management graduate at University of Gothenburg in 2022. <br/>
+         Postgraduate in Industrial Economics at University of Shanghai for Science & Technology in 2017. <br/>
+         Graduate in Software Engineering and Management at University of Gothenburg in 2022. <br/>
 
           </p>
         </div>
