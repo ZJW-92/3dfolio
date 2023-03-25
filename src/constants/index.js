@@ -54,17 +54,17 @@ const services = [
   },
  
   {
-    title: "Software Developer",
+    title: "Computer Vision Engineer",
     icon: backend,
   },
 
   {
-    title: "Data Analyst",
+    title: "Image Processing Engineer",
     icon: mobile,
   },
 
   {
-    title: "Business Analyst",
+    title: "Data Analyst",
     icon: creator,
   },
 
