@@ -5,6 +5,7 @@ import {
   web,
   javascript,
   threejs,
+  matlab,
   html,
   css,
   reactjs,
@@ -66,6 +67,11 @@ const services = [
 ];
 
 const technologies = [
+  {
+    name: "Matlab",
+    icon: matlab,
+  },
+  
   {
     name: "HTML 5",
     icon: html,
@@ -177,8 +183,6 @@ const testimonials = [
     
     testimonial:
       "Matlab Onramp",
-   
-  
     company: "MathWorks",
   
   },

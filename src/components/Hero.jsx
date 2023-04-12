@@ -21,7 +21,7 @@ const Hero = () => {
           <p className={`${styles.heroSubText} mt-2 text-white-300`}>
          Born in Shanghai and studied in both Sweden 🇸🇪 and China 🇨🇳. <br/>
          Graduate in Software Engineering and Management at University of Gothenburg in 2022. <br/> 
-         Currently I am seeking a job as a Matlab/Simulink engineer or Image processing/Computer vision engineer.
+         Currently I am seeking a job as a Matlab/Simulink/ Image processing/ Computer vision engineer.
 
           </p>
         </div>
