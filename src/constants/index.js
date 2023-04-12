@@ -9,24 +9,19 @@ import {
   css,
   reactjs,
   tailwind,
-  nodejs,
-  mongodb,
   git,
   boras,
   gbg,
   usst,
   xin,
   hermods,
-  express,
-  gitlab,
-
+ 
   face,
   web3,
   portfolio1,
   portfolio2,
   fitness,
   openai,
-  recipe,
   smartcar,
   bigdata
 
@@ -49,7 +44,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Embedded Developer",
+    title: "Matlab/Simulink Engineer",
     icon: web,
   },
  
@@ -98,28 +93,6 @@ const technologies = [
   {
     name: "threejs",
     icon: threejs,
-  },
-
-
-  {
-    name: "Express",
-    icon: express,
-  },
-
-
-  {
-    name: "gitlab",
-    icon: gitlab,
-  },
-
-
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
   },
 
   {
@@ -186,15 +159,14 @@ const experiences = [
     iconBg: "#383E56",
     date: "September 2019 - June 2022",
     points: [
-      "Experience in an Agile/Scrum development process",
-      "Basic knowledge of user requirements and user experience",
-      "Basic embedded and real-time system knowledge",
-      "Basic knowledge of testing automation, software quality assurance and DevOps",
+      "Experience in an Agile/Scrum teamwork development process",
+      "Embedded and real-time system knowledge",
+      "Knowledge of testing automation, software quality assurance",
       "Experience of CI/CD tools: GitLab",
       "Basic database knowledge: MySQL, MongoDB",
-      "Machine Learning and Deep Learning practice with jupyter notebook and python",
+      "Machine Learning and Deep Learning practice",
       "Basic applicable development languages: Java, JavaScript, Python.",
-      "Basic web application frontend and framework (e.g. React, Vue) and backend framework (e.g. Django)"
+      "Web application frontend and framework (e.g. React, Vue)"
     ],
   },
  
@@ -202,19 +174,20 @@ const experiences = [
 
 const testimonials = [
   {
+    
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Matlab Onramp",
+   
+  
+    company: "MathWorks",
+  
   },
   {
     testimonial:
       "I've never met a web developer who truly cares about their clients' success like Rick does.",
     name: "Chris Brown",
     designation: "COO",
-    company: "DEF Corp",
+    company: "MathWorks",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
@@ -222,7 +195,7 @@ const testimonials = [
       "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
     name: "Lisa Wang",
     designation: "CTO",
-    company: "456 Enterprises",
+    company: "MathWorks",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
@@ -313,34 +286,6 @@ const projects = [
     source_code_link: "https://github.com/ZJW-92/chatgpt_openai",
   },
 
-
-  {
-    name: "Optimal Recipe Blog",
-    description:
-      "A Content Management System (CMS) of showcasing different kinds of Asian cuisine with full markdown recipes, author information and comments.",
-    tags: [
-      {
-        name: "React",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Next.js",
-        color: "green-text-gradient",
-      },
-      {
-        name: "graphQL",
-        color: "pink-text-gradient",
-      },
-
-      {
-        name: "TailwindCSS",
-        color: "blue-text-gradient",
-      },
-
-    ],
-    image: recipe,
-    source_code_link: "https://github.com/ZJW-92/cms_blog_app",
-  },
 
 
   {

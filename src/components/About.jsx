@@ -47,10 +47,11 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[20px] max-w-3xl leading-[35px]'
       >
-       ⭑ I have genuine passion for Software Engineering, Data Science and Machine Learning. Also, I am interested with Consulting, Quality Assurance, Test Automation and DevOps.<br/>
+       ⭑ I have great interest in data analysis, machine learning, image processing, computer vision, simulations and embedded systems.
+       <br/>
        ⭑ I am careful, resistant to stress, self-motivated with a strong desire to learn new things and like to take my own initiative.<br/>
        ⭑ I am active, like to cooperate in teamwork and open to new ideas and willing to listen to advice.
-        My biggest advantages are my competence and positive attitude.
+      
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

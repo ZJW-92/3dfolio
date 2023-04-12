@@ -12,19 +12,10 @@ import html from "./tech/html.png";
 import css from "./tech/css.png";
 import git from "./tech/git.png";
 import javascript from "./tech/javascript.png";
-import mongodb from "./tech/mongodb.png";
-import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 
 import tailwind from "./tech/tailwind.png";
-import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-
-import express from "./tech/express.png";
-import graphql from "./tech/graphql.png";
-import gitlab from "./tech/gitlab.png";
-import jenkins from "./tech/jenkins.png";
-import GitHub from "./tech/GitHub.png";
 
 import boras from "./company/boras.png";
 import gbg from "./company/gbg.png";
@@ -55,21 +46,11 @@ export {
   git,
   html,
   javascript,
-  mongodb,
-  nodejs,
   reactjs,
-
   tailwind,
-  typescript,
   threejs,
-
-  express,
-  graphql,
-  jenkins,
-  gitlab,
-  GitHub,
-
-
+  
+  
   boras,
   gbg,
   usst,

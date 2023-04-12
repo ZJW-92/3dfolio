@@ -18,10 +18,10 @@ const Hero = () => {
           <h1 className={`${styles.heroHeadText} text-white`}>
             Welcome to <span className='text-[#915EFF]'>Zhijie's </span>Portfolio
           </h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
+          <p className={`${styles.heroSubText} mt-2 text-white-300`}>
          Born in Shanghai and studied in both Sweden 🇸🇪 and China 🇨🇳. <br/>
-         Postgraduate in Industrial Economics at University of Shanghai for Science & Technology in 2017. <br/>
-         Graduate in Software Engineering and Management at University of Gothenburg in 2022. <br/>
+         Graduate in Software Engineering and Management at University of Gothenburg in 2022. <br/> 
+         Currently I am seeking a job as a Matlab/Simulink engineer or Image processing/Computer vision engineer.
 
           </p>
         </div>
