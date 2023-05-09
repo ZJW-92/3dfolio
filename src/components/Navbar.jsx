@@ -43,7 +43,7 @@ const Navbar = () => {
           }}
         >
           <img src={zjw_logo} alt='logo' className='w-24 h-14 object-contain' />
-          <p className='text-secondary hover:text-white text-[20px] font-medium cursor-pointer flex '>
+          <p className='text-secondary hover:text-white text-[18px] font-medium cursor-pointer flex '>
             Zhijie &nbsp;
             <span className='sm:block hidden'> | Wei</span>
           </p>
@@ -62,7 +62,7 @@ const Navbar = () => {
               <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
           ))}
-          <Link to="/CV_Zhijie.pdf" className='flex items-center gap-2'
+          <Link to="https://zhijie92.netlify.app/CV_Zhijie.pdf" className='flex items-center gap-2'
           onClick={() => {
             setActive("");
             window.scrollTo(0, 0);
@@ -73,8 +73,6 @@ const Navbar = () => {
             {/* <span className='sm:block hidden'> | CV</span> */}
           </p>
            </Link>
-
-
         </ul>
 
         <div className='sm:hidden flex flex-1 justify-end items-center'>
@@ -84,7 +82,6 @@ const Navbar = () => {
             className='w-[28px] h-[28px] object-contain'
             onClick={() => setToggle(!toggle)}
           />
-
           <div
             className={`${
               !toggle ? "hidden" : "flex"
@@ -105,7 +102,19 @@ const Navbar = () => {
                   <a href={`#${nav.id}`}>{nav.title}</a>
                 </li>
               ))}
+              <Link to="https://zhijie92.netlify.app/CV_Zhijie.pdf" className='flex items-center gap-2'
+             onClick={() => {
+            setActive("");
+            window.scrollTo(0, 0);
+          }}
+        >
+          <p className='text-secondary hover:text-white text-[18px] font-medium cursor-pointer flex '>
+            Resume &nbsp;
+            {/* <span className='sm:block hidden'> | CV</span> */}
+          </p>
+           </Link>
             </ul>
+            
           </div>
         </div>
       </div>
