@@ -48,8 +48,6 @@ const Navbar = () => {
             <span className='sm:block hidden'> | Wei</span>
           </p>
         </Link>
-
-    
         <ul className='list-none hidden sm:flex flex-row gap-10'>
           {navLinks.map((nav) => (
             <li
@@ -114,7 +112,6 @@ const Navbar = () => {
           </p>
            </Link>
             </ul>
-            
           </div>
         </div>
       </div>
