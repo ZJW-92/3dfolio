@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-
+import pdf from "/CV_Zhijie.pdf"
 import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { zjw_logo, menu, close } from "../assets";
@@ -60,10 +60,10 @@ const Navbar = () => {
               <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
           ))}
-          <Link to="https://zhijie92.netlify.app/CV_Zhijie.pdf" className='flex items-center gap-2'
+          <Link to="/CV_Zhijie.pdf" className='flex items-center gap-2'
           onClick={() => {
             setActive("");
-            window.scrollTo(0, 0);
+            window.open(pdf);
           }}
         >
           <p className='text-secondary hover:text-white text-[18px] font-medium cursor-pointer flex '>
@@ -100,10 +100,10 @@ const Navbar = () => {
                   <a href={`#${nav.id}`}>{nav.title}</a>
                 </li>
               ))}
-              <Link to="https://zhijie92.netlify.app/CV_Zhijie.pdf" className='flex items-center gap-2'
+              <Link className='flex items-center gap-2'
              onClick={() => {
             setActive("");
-            window.scrollTo(0, 0);
+            window.open(pdf);
           }}
         >
           <p className='text-secondary hover:text-white text-[18px] font-medium cursor-pointer flex '>
