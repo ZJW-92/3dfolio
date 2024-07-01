@@ -16,7 +16,7 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Welcome to <span className='text-[#915EFF]'>Zhijie's </span>Portfolio
+          Välkommen till <span className='text-[#915EFF]'>Zhijie's </span>portfölj
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-300`}>
          Born in Shanghai and studied in both Sweden 🇸🇪 and China 🇨🇳. <br/>
