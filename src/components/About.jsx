@@ -39,18 +39,18 @@ const About = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>About me</h2>
+        <p className={styles.sectionSubText}>Introduktion</p>
+        <h2 className={styles.sectionHeadText}>Om mig</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[20px] max-w-3xl leading-[35px]'
       >
-       ⭑ I have great interest in data analysis, machine learning, image processing, computer vision, simulations and embedded systems.
+       ⭑ Jag är noggrann, stresstålig, självmotiverad med en stark vilja att lära mig nya saker och tar gärna mina egna initiativ.
        <br/>
-       ⭑ I am careful, resistant to stress, self-motivated with a strong desire to learn new things and like to take my own initiative.<br/>
-       ⭑ I am active, like to cooperate in teamwork and open to new ideas and willing to listen to advice.
+       ⭑ Jag är aktivt, gillar att samarbeta i teamwork och jag är lyhörd och vill gärna lyssna på råd från kollegor.<br/>
+       ⭑ Jag har stor passion och jag siktar på att söka nya utmaningar.
       
       </motion.p>
 

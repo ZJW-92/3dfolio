@@ -45,22 +45,22 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Matlab/Simulink Engineer",
+    title: "Ständig inlärning",
     icon: web,
   },
  
   {
-    title: "Computer Vision Engineer",
+    title: "Probelmlösare",
     icon: backend,
   },
 
   {
-    title: "Image Processing Engineer",
+    title: "Bra på samarbeta",
     icon: mobile,
   },
 
   {
-    title: "Data Analyst",
+    title: "Lojal och pålitlig",
     icon: creator,
   },
 
