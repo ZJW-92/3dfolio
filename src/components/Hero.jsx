@@ -19,10 +19,8 @@ const Hero = () => {
           Välkommen till <span className='text-[#915EFF]'>Zhijie's </span>portfölj
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-300`}>
-         Born in Shanghai and studied in both Sweden 🇸🇪 and China 🇨🇳. <br/>
-         Graduate in Software Engineering and Management at University of Gothenburg in 2022. <br/> 
-         Currently I am seeking a job as a Matlab/Simulink/ Image processing/ Computer vision engineer.
-
+         Född i Shanghai, Kina och nyinflyttad till Sverige 🇸🇪 <br/>
+         För närvarande söker jag ett jobb inom Data,Transport och Renhållning branschen 
           </p>
         </div>
       </div>
