@@ -110,46 +110,46 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Postgraduate in Industrial Economics",
+    title: "Masterexamen inom industriell ekonomi",
     company_name: "University of Shanghai for Science and Technology",
     icon: usst,
     iconBg: "#383E56",
-    date: "September 2014 - June 2017",
+    date: "september 2014 - juni 2017",
     points: [
-      "Master thesis 'Study on the Asymmetric Effect of Environmental Governance on Employment——Based on Panel Data of Prefecture-Level Cities in China' with specializing in SPSS statistical tool.",
+      "Examensarbete med specialisering i statistikverktyget SPSS",
       
     ],
   }, 
 
   {
-    title: "Exchange student",
-    company_name: "University of Borås",
+    title: "Utbytesstudent",
+    company_name: "Högskolan i Borås",
     icon: boras,
     iconBg: "#383E56",
-    date: "September 2015 - May 2016",
+    date: "september 2015 - maj 2016",
     points: [
-      "Courses: International management, Supply Chain Management and Basic Swedish I and II.",
+      "Kurser: International management, Supply Chain Management samt grundläggande svenska I och II.",
     ],
   },
 
   {
-    title: "Chinese to English translator",
+    title: "Översättare från kinesiska till engelska",
     company_name: "Shanghai Xinzhi Private Entry-Exit Service Co., Ltd.",
     icon: xin,
     iconBg: "#E6DEDD",
-    date: "June 2017 - June 2018",
+    date: "juni 2017 - Juni 2018",
     points: [
-      "Organize customers' immigration documents",
-      "Translate document into English and proofread."
+      "Organisera kundernas immigrationsdokument",
+      "Översätta dokument till engelska och korrekturläsa."
     ],
   },
   
   {
-    title: "SFI & Swedish as second language 1, 2",
+    title: "SFI & svenska som andraspråk 1, 2",
     company_name: "Hermods AB",
     icon: hermods,
     iconBg: "#E6DEDD",
-    date: "September 2018 - May 2020",
+    date: "september 2018 - maj 2020",
     points: [
       "Svenska för invandrare D (SFI)",
       "Svenska som andraspråk 1",
@@ -159,24 +159,32 @@ const experiences = [
   
 
   {
-    title: "Graduate in Software Engineering and Management",
-    company_name: "University of Gothenburg",
+    title: "Kandidate examen i Software Engineering and Management",
+    company_name: "Göteborgs universitet",
     icon: gbg,
     iconBg: "#383E56",
-    date: "September 2019 - June 2022",
+    date: "september 2019 - juni 2022",
     points: [
-      "Experience in an Agile/Scrum teamwork development process",
-      "Embedded and real-time system knowledge",
-      "Knowledge of testing automation, software quality assurance",
-      "Experience of CI/CD tools: GitLab",
-      "Basic database knowledge: MySQL, MongoDB",
-      "Machine Learning and Deep Learning practice",
-      "Basic applicable development languages: Java, JavaScript, Python.",
-      "Web application frontend and framework (e.g. React, Vue)"
+      "utvecklingsprocess med Agile/Scrum-teamarbete",
+      "Java, JavaScript, Python.",
+      "Frontend och ramverk för webbapplikationer(t.ex React, Vue)"
+    ],
+  },
+
+  {
+    title: "Freelancer",
+    icon: xin,
+    iconBg: "#383E56",
+    date: "juni 2023- juni 2024",
+    points: [
+      "Reseguider och tolk ",
+      "Programmering egna projekt på Github",
+      
     ],
   },
  
 ];
+
 
 const testimonials = [
   {
