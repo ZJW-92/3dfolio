@@ -31,15 +31,15 @@ import {
 export const navLinks = [
   {
     id: "about",
-    title: "About",
+    title: "Om mig",
   },
   {
     id: "work",
-    title: "Experience",
+    title: "Erfarenhet",
   },
   {
     id: "contact",
-    title: "Contact",
+    title: "Kontact",
   },
 ];
 
@@ -72,15 +72,6 @@ const technologies = [
     icon: matlab,
   },
   
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-
-  {
-    name: "CSS 3",
-    icon: css,
-  },
   {
     name: "JavaScript",
     icon: javascript,
@@ -371,54 +362,6 @@ const projects = [
     image: bigdata,
     source_code_link: "https://github.com/ZJW-92/bigData_COVID_Analysis",
   },
-
-
-  {
-    name: "Portfolio Version 1 ",
-    description:
-      "First version of my portfolio of introducing myself, my background, projects and technologies I have used in the past year 2022 and 2023 currently.",
-    tags: [
-      {
-        name: "React",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Next.js",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Styled-components",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: portfolio1,
-    source_code_link: "https://github.com/ZJW-92/personal_portfolio",
-  },
-
-
-
-  {
-    name: "Portfolio Version 2 ",
-    description:
-      "Second version of my portfolio of introducing myself, my background, projects and technologies I have used in the past year 2022 and 2023 currently.",
-    tags: [
-      {
-        name: "React",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "React-icons",
-        color: "green-text-gradient",
-      },
-      {
-        name: "React-bootstrap",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: portfolio2,
-    source_code_link: "https://github.com/ZJW-92/portfolio_v2",
-  },
-
 
 ];
 

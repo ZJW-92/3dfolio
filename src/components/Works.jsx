@@ -72,7 +72,7 @@ const Works = () => {
     <>
       <motion.div variants={textVariant()}>
         {/* <p className={`${styles.sectionSubText} `}>My work</p> */}
-        <h2 className={`${styles.sectionHeadText}`}>Personal projects on GitHub</h2>
+        <h2 className={`${styles.sectionHeadText}`}>Personliga projekt på GitHub</h2>
       </motion.div>
 
       <div className='w-full flex'>
@@ -80,8 +80,7 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
-          The Following projects showcases my genuine passion and skills towards Software Engineering through real-world examples. 
-          Each project is linked to source code repositories and live demos on GitHub. 
+          
         </motion.p>
       </div>
 
