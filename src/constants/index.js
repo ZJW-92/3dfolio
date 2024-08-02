@@ -45,12 +45,12 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Ständig inlärning",
+    title: "Fysiskt och mentalt stark",
     icon: web,
   },
  
   {
-    title: "Probelmlösare",
+    title: "Ständig inlärning",
     icon: backend,
   },
 
@@ -60,7 +60,7 @@ const services = [
   },
 
   {
-    title: "Lojal och pålitlig",
+    title: "Problemlösare",
     icon: creator,
   },
 

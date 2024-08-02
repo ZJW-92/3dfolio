@@ -21,7 +21,7 @@ const Hero = () => {
           <p className={`${styles.heroSubText} mt-2 text-white-300`}>
          Född i Shanghai, Kina 🇨🇳 <br/>
          Nyinflyttad till Sverige 🇸🇪 <br/>
-         I nuläget söker jag ett relevant jobb inom Copywriting, Data eller Transport industrin. 
+         I nuläget söker jag ett relevant jobb inom Lager/ Transport industrin. 
           </p>
         </div>
       </div>

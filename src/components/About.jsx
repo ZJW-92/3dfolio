@@ -47,10 +47,10 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[20px] max-w-3xl leading-[35px]'
       >
+       ⭑ Jag har långsiktlig vana att gymma och gillar att lyfta tunga vikter. <br/>
+       ⭑ Jag är aktivt, gillar att samarbeta i teamwork.<br/>
+       ⭑ Jag har stor passion och jag siktar på att söka nya utmaningar. <br/>
        ⭑ Jag är noggrann, stresstålig, självmotiverad med en stark vilja att lära mig nya saker och tar gärna mina egna initiativ.
-       <br/>
-       ⭑ Jag är aktivt, gillar att samarbeta i teamwork och jag är lyhörd och vill gärna lyssna på råd från kollegor.<br/>
-       ⭑ Jag har stor passion och jag siktar på att söka nya utmaningar.
       
       </motion.p>
 
