@@ -168,7 +168,6 @@ const experiences = [
     iconBg: "#383E56",
     date: "juni 2023- juni 2024",
     points: [
-      "Reseguider och tolk ",
       "Programmering egna projekt på Github",
       
     ],

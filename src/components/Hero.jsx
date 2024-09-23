@@ -19,9 +19,10 @@ const Hero = () => {
           Välkommen till <span className='text-[#915EFF]'>Zhijie's </span>portfölj
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-300`}>
-         Född i Shanghai, Kina 🇨🇳 <br/>
-         Nyinflyttad till Sverige 🇸🇪 <br/>
-         I nuläget söker jag ett relevant jobb inom dagligvaruhandeln eller lager/transport industrin. 
+         Född i Shanghai, Kina. 🇨🇳 <br/>
+         Ny i Sverige och har arbetstillstånd. 🇸🇪 <br/>
+         Registrerad på Arbetsförmedlingen.<br/>
+         Har stort intresse att göra cocktails/sprit. 
           </p>
         </div>
       </div>

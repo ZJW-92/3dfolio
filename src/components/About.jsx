@@ -48,11 +48,11 @@ const About = () => {
         className='mt-4 text-secondary text-[20px] max-w-3xl leading-[35px]'
       >
        ⭑ Jag bemöter människor med artighet och respekt. <br/>
-       ⭑ Jag har god fysik och gillar att lyfta vikter. <br/>
        ⭑ Jag är aktivt och trivs att arbeta i team och självständigt.<br/>
-       ⭑ Jag är noggrann, stresstålig, självmotiverad med en stark vilja att lära mig nya färdigheter.<br/>
+       ⭑ Jag är punktlig, noggrann, har förmåga att arbeta under stress.<br/>
        ⭑ Jag är ansvarsfull, disciplinerad, organiserad, tar mina egna initiativ och lyder alla villkor på jobbet.<br/>
-       ⭑ Jag har stor passion och siktar på att söka nya utmaningar. <br/>
+       ⭑ Jag är fysisk god, självmotiverad med en stark vilja att lära mig nya färdigheter. <br/>
+       ⭑ Jag har stor passion och jag siktar på att söka nya utmaningar.  <br/>
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
