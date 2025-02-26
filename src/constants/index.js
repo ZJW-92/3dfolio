@@ -16,6 +16,7 @@ import {
   usst,
   xin,
   hermods,
+  studium,
  
   face,
   web3,
@@ -35,7 +36,7 @@ export const navLinks = [
   },
   {
     id: "work",
-    title: "Erfarenhet",
+    title: "Utbildning",
   },
   {
     id: "contact",
@@ -101,6 +102,60 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Storkökskock, ykesutbildning ",
+    company_name: "Studium Restaurang Vux, Göteborg",
+    icon: studium, 
+    iconBg: "#383E56",
+    date: "jan 2025 - pågående",
+    points: [
+      "Matlagning 1",
+      "Matlagning 2",
+      "Matlagning 3",
+      "Hygien med egenkontroll",
+      "Livsmedel och näringskunskap",
+      
+    ],
+  },
+  
+
+  {
+    title: "Freelancer",
+    icon: xin,
+    iconBg: "#383E56",
+    date: "juni 2023- juni 2024",
+    points: [
+      "Programmering egna projekt på Github",
+      
+    ],
+  },
+
+  {
+    title: "Kandidatexamen med huvudområdet Software Engineering and Management",
+    company_name: "Göteborgs universitet",
+    icon: gbg,
+    iconBg: "#383E56",
+    date: "september 2019 - juni 2022",
+    points: [
+      "utvecklingsprocess med Agile/Scrum-teamarbete",
+      "Java, JavaScript, Python.",
+      "Frontend och ramverk för webbapplikationer(t.ex React, Vue)"
+    ],
+  },
+
+  {
+    title: "SFI, svenska som andraspråk 1, 2",
+    company_name: "Hermods AB",
+    icon: hermods,
+    iconBg: "#E6DEDD",
+    date: "september 2018 - maj 2020",
+    points: [
+      "Svenska för invandrare D (SFI)",
+      "Svenska som andraspråk 1",
+      "Svenska som andraspråk 2"
+    ],
+  },
+
+  {
     title: "Masterexamen inom industriell ekonomi",
     company_name: "University of Shanghai for Science and Technology",
     icon: usst,
@@ -120,56 +175,6 @@ const experiences = [
     date: "september 2015 - maj 2016",
     points: [
       "Kurser: International management, Supply Chain Management samt grundläggande svenska I och II.",
-    ],
-  },
-
-  {
-    title: "Översättare från kinesiska till engelska",
-    company_name: "Shanghai Xinzhi Private Entry-Exit Service Co., Ltd.",
-    icon: xin,
-    iconBg: "#E6DEDD",
-    date: "juni 2017 - Juni 2018",
-    points: [
-      "Organisera kundernas immigrationsdokument",
-      "Översätta dokument till engelska och korrekturläsa."
-    ],
-  },
-  
-  {
-    title: "SFI & svenska som andraspråk 1, 2",
-    company_name: "Hermods AB",
-    icon: hermods,
-    iconBg: "#E6DEDD",
-    date: "september 2018 - maj 2020",
-    points: [
-      "Svenska för invandrare D (SFI)",
-      "Svenska som andraspråk 1",
-      "Svenska som andraspråk 2"
-    ],
-  },
-  
-
-  {
-    title: "Kandidate examen i Software Engineering and Management",
-    company_name: "Göteborgs universitet",
-    icon: gbg,
-    iconBg: "#383E56",
-    date: "september 2019 - juni 2022",
-    points: [
-      "utvecklingsprocess med Agile/Scrum-teamarbete",
-      "Java, JavaScript, Python.",
-      "Frontend och ramverk för webbapplikationer(t.ex React, Vue)"
-    ],
-  },
-
-  {
-    title: "Freelancer",
-    icon: xin,
-    iconBg: "#383E56",
-    date: "juni 2023- juni 2024",
-    points: [
-      "Programmering egna projekt på Github",
-      
     ],
   },
  

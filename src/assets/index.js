@@ -22,6 +22,7 @@ import gbg from "./company/gbg.png";
 import usst from "./company/usst.png";
 import xin from "./company/xin.png";
 import hermods from "./company/hermods.png";
+import studium from "./company/studium.png";
 
 import face from "./images/14.png";
 import web3 from "./images/13.png";
@@ -56,6 +57,7 @@ export {
   usst,
   xin,
   hermods,
+  studium,
 
   face, 
   web3,
