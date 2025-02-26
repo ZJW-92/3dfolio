@@ -1,0 +1,11 @@
+Model Information:
+* title:	炒饭Chinese fried rice
+* source:	https://sketchfab.com/3d-models/chinese-fried-rice-e2aec92e5fb34db3ad62b67d03609ec2
+* author:	练习4年实习生喜欢渲雕rig (https://sketchfab.com/jaafayelee)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "炒饭Chinese fried rice" (https://sketchfab.com/3d-models/chinese-fried-rice-e2aec92e5fb34db3ad62b67d03609ec2) by 练习4年实习生喜欢渲雕rig (https://sketchfab.com/jaafayelee) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
