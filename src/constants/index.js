@@ -11,13 +11,24 @@ import {
   reactjs,
   tailwind,
   git,
+  stekspade,
+
   boras,
   gbg,
   usst,
   xin,
   hermods,
   studium,
- 
+
+  vete, 
+  pommes,
+  baguette,
+  grot,
+  gurka,
+  tomat,
+  fisk,
+  kyckling,
+  meatball,
   face,
   web3,
   portfolio1,
@@ -68,35 +79,42 @@ const services = [
 ];
 
 const technologies = [
+ 
   {
     name: "Matlab",
-    icon: matlab,
+    icon: stekspade,
+  },
+
+  {
+    name: "Matlab",
+    icon: studium,
   },
   
   {
     name: "JavaScript",
-    icon: javascript,
+    icon: gbg,
   },
  
   {
     name: "React JS",
-    icon: reactjs,
+    icon: hermods,
   },
 
   {
     name: "Tailwind CSS",
-    icon: tailwind,
+    icon: boras,
   },
 
   {
     name: "threejs",
-    icon: threejs,
+    icon: usst,
   },
 
   {
     name: "git",
-    icon: git,
+    icon: xin,
   },
+
 
 ];
 
@@ -120,9 +138,10 @@ const experiences = [
 
   {
     title: "Freelancer",
+    company_name: "Shanghai, Kina",
     icon: xin,
     iconBg: "#383E56",
-    date: "juni 2023- juni 2024",
+    date: "feb 2023- juni 2024",
     points: [
       "Programmering egna projekt på Github",
       
@@ -157,7 +176,7 @@ const experiences = [
 
   {
     title: "Masterexamen inom industriell ekonomi",
-    company_name: "University of Shanghai for Science and Technology",
+    company_name: "University of Shanghai for Science and Technology, Shanghai, Kina",
     icon: usst,
     iconBg: "#383E56",
     date: "september 2014 - juni 2017",
@@ -209,162 +228,209 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Facial Emotion Detection",
+    name: "Köttbullar med potatismos och gräddsås",
     description:
-      "A task of recognizing a person's emotional state among angry, disgust, fear, happy, neutral, sad and surprise using CNN deep learning technology.",
+      "Köttbullar med gräddsås och kokt potatis är en klassisk husmansrätt som är populär hos hela familjen, alltid ett säkert kort! Servera med pressgurka och lingon.",
     tags: [
       {
-        name: "OpenCV",
+        name: "Huvudrätt",
         color: "blue-text-gradient",
       },
       {
-        name: "Keras",
+        name: "Matlåda",
         color: "green-text-gradient",
       },
       {
-        name: "Tensorflow",
+        name: "Lunch",
         color: "pink-text-gradient",
       },
       {
-        name: "CNN",
+        name: "Middag",
         color: "blue-text-gradient",
       },
 
     ],
-    image: face,
-    source_code_link: "https://github.com/ZJW-92/facial_emotion_detection",
+    image: meatball,
+    source_code_link: "https://www.arla.se/recept/kottbullar/",
   },
 
 
   {
-    name: "Web3 Blockchain Social Media App",
+    name: "Kycklingschnitzel med ris och currysås",
     description:
-      "A decentralized social media application that you have your account but not privately owned but rather your account is saved in the public blockchain away from private ownership.",
+      "En klassisk rätt måste ju vara en schnitzel, men här görs den inte på kalv utan på kyckling. Och det går ju minst lika bra! Ät den tillsammans med en currydipp och ris.",
     tags: [
       {
-        name: "React",
+        name: "Huvudrätt",
         color: "blue-text-gradient",
       },
       {
-        name: "Lens Protocol",
+        name: "Matlåda",
         color: "green-text-gradient",
       },
       {
-        name: "Chakra UI",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "Ethers",
+        name: "Middag",
         color: "blue-text-gradient",
       },
-      {
-        name: "GraphQL",
-        color: "green-text-gradient",
-      },
-
+      
     ],
-    image: web3,
-    source_code_link: "https://github.com/ZJW-92/web3_blockchain_app",
+    image: kyckling,
+    source_code_link: "https://www.ica.se/recept/kycklingschnitzel-med-currydipp-727006/",
   },
 
   {
-    name: "ChatGPT OpenAI",
+    name: "Klassisk fiskgratäng",
     description:
-      "A language model chatbot developed by OpenAI based on GPT 3.5. Users can interact with bot, require chatbot to write, debug code and explain almost everything.",
+      "En klassisk fiskgratäng består av torsk, vitvinssås och pommes duchesse. Denna fiskgratäng blir otroligt god och passar utmärkt att servera vid festliga tillfällen.",
     tags: [
       {
-        name: "Node.js",
+        name: "Huvudrätt",
         color: "blue-text-gradient",
       },
       {
-        name: "OpenAIApi",
+        name: "Matlåda",
         color: "green-text-gradient",
       },
       {
-        name: "Vite",
+        name: "Frysbar",
         color: "pink-text-gradient",
       },
-      {
-        name: "JavaScript",
-        color: "blue-text-gradient",
-      },
     ],
-    image: openai,
-    source_code_link: "https://github.com/ZJW-92/chatgpt_openai",
-  },
-
-
-
-  {
-    name: "NeuroDrive Smart Car",
-    description:
-      "A software that allows end users to remotely control a smart car with the use of an EEG-headset and a mobile app. Moreover, the smart car can avoid obstacles in front and behind it by turning in the opposite direction.",
-    tags: [
-      {
-        name: "C++",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Java",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Travis CI",
-        color: "pink-text-gradient",
-      },
-
-      {
-        name: "Arduino",
-        color: "blue-text-gradient",
-      },
-
-    ],
-    image: smartcar,
-    source_code_link: "https://github.com/ZJW-92/DIT112-V20-Miniprojekt-Systemutveckling/blob/main/README.md",
+    image: fisk,
+    source_code_link: "https://www.arla.se/recept/klassisk-fiskgratang/",
   },
 
   {
-    name: "Keep Fit fitness application ",
+    name: "Baguette med räkröra",
     description:
-      "A fitness training application that help you browse and workout 1000+ exercises and more.",
+      "Somrig picknickmat för hela familjen är det här! En egen variant på skagenröra med räkor och ägg fyller baguetten.",
     tags: [
       {
-        name: "React",
+        name: "Picknickmat",
         color: "blue-text-gradient",
       },
       {
-        name: "Material-UI",
+        name: "Lunch",
         color: "green-text-gradient",
       },
       {
-        name: "Rapid API",
+        name: "Middag",
         color: "pink-text-gradient",
       },
     ],
-    image: fitness,
-    source_code_link: "https://github.com/ZJW-92/keep_fit_fitness_app",
+    image: baguette,
+    source_code_link: "https://www.ica.se/recept/baguette-med-rakrora-och-avokado-715105/",
   },
 
   {
-    name: "Big data COVID-19 analysis",
+    name: "Tomatsås (grundrecept)",
     description:
-      "Big data analysis of COVID-19 epidemic worldwide through daily data which ranged from January 2020 to March 2021 from Johns Hopkins University. It visualizes how much and fast this epidemic spreads around the world.",
+      "Italienarnas favoritsås! Riv lök, vitlök, morot och selleri fint och koka ihop med krossade tomater och kryddor. Servera till pasta eller använd som bas i andra maträtter.",
     tags: [
       {
-        name: "Jupyter notebook",
+        name: "Middag",
         color: "blue-text-gradient",
       },
       {
-        name: "pandas",
+        name: "Snabbmat",
         color: "green-text-gradient",
       },
       {
-        name: "pyecharts",
+        name: "Matlådad",
         color: "pink-text-gradient",
       },
     ],
-    image: bigdata,
-    source_code_link: "https://github.com/ZJW-92/bigData_COVID_Analysis",
+    image: tomat,
+    source_code_link: "https://www.ica.se/recept/tomatsas-grundrecept-722161/",
+  },
+
+  {
+    name: "Pommes duchesse",
+    description:
+      "Pommes Duchesse spritsas till fina toppar som sedan gratineras i ugn. Ett utmärkt mos att använda när du lagar fiskgratäng.",
+    tags: [
+      {
+        name: "Middag",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Matlåda",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Lunch",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: pommes,
+    source_code_link: "https://www.ica.se/recept/pommes-duchesse-duchessetoppar-713057/",
+  },
+
+  {
+    name: "Inlagd gurka med ättika",
+    description:
+      "Delikat och utsökt pressgurka. Charmant klassiker, skivad gurka i effektfull ättikslag. Idealisk till mustiga grillade köttbitar. Makalöst gott också till köttbullar med kokt potatis.",
+    tags: [
+      {
+        name: "Frukost",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tillbehör",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Snabbmat",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: gurka,
+    source_code_link: "https://www.ica.se/recept/pressgurka-5070/",
+  },
+
+  {
+    name: "Mannagrynsgröt",
+    description:
+      "Snabbt och enkelt är det att koka len och mjuk mannagrynsgröt. Perfekt som frukost eller mellanmål både till barn och vuxna. Toppa med kanel, rivet äpple, torkad frukt eller din favoritsylt.",
+    tags: [
+      {
+        name: "Frukost",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Efterrätt",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Mellanmål",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: grot,
+    source_code_link: "https://www.arla.se/recept/mannagrynsgrot/",
+  },
+
+
+  {
+    name: "Fröknäcke",
+    description:
+      "Enkelt och gott glutenfritt hemlagat knäckebröd, fullt med olika sorters fröer. Bryt i oregelbundna bitar och servera med goda röror till.",
+    tags: [
+      {
+        name: "Mellanmål",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Efterrätt",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Glutenfri",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: vete,
+    source_code_link: "https://www.ica.se/recept/froknacke-716579/",
   },
 
 ];
