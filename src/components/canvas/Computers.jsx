@@ -22,9 +22,9 @@ const Computers = ({ isMobile }) => {
       <pointLight intensity={1} />
       <primitive
         object={computer.scene}
-        scale={isMobile ? 7 : 5}
+        //scale={isMobile ? 7 : 5}
         // the following line is for scale for gaming desktop 
-         // scale={isMobile ? 0.7 : 0.75}
+          scale={isMobile ? 0.7 : 0.75}
       
         position={isMobile ? [0, -3, 0.2] : [0, -3.25, 0]}
         rotation={[-0.01, -0.2, -0.1]}
