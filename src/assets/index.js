@@ -26,6 +26,7 @@ import usst from "./company/usst.png";
 import xin from "./company/xin.png";
 import hermods from "./company/hermods.png";
 import studium from "./company/studium.png";
+import sandarna from "./company/sandarna.png"
 
 import vete from "./images/23.jpeg";
 import grot from "./images/22.jpeg"; 
@@ -73,7 +74,8 @@ export {
   xin,
   hermods,
   studium,
- 
+  sandarna,
+  
   vete,
   grot,
   gurka,

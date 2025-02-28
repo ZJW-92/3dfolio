@@ -19,6 +19,7 @@ import {
   xin,
   hermods,
   studium,
+  sandarna,
 
   vete, 
   pommes,
@@ -49,6 +50,12 @@ export const navLinks = [
     id: "work",
     title: "Utbildning",
   },
+
+  {
+    id: "galleri",
+    title: "Galleri",
+  },
+
   {
     id: "contact",
     title: "Kontact",
@@ -82,7 +89,7 @@ const technologies = [
  
   {
     name: "Matlab",
-    icon: stekspade,
+    icon: sandarna,
   },
 
   {
@@ -110,15 +117,26 @@ const technologies = [
     icon: usst,
   },
 
-  {
-    name: "git",
-    icon: xin,
-  },
-
-
 ];
 
 const experiences = [
+  
+  {
+    title: "Arbetsplatsförlagt lärande (APL) ",
+    company_name: "Sandarnas vård och omsorgsboende, Göteborg",
+    icon: sandarna, 
+    iconBg: "#383E56",
+    date: "mars 2025 - april 2025",
+    points: [
+      "Förberedelse av frukost och lunch.",
+      "Tillagning av dagens huvudmåltider.",
+      "Förberedelser inför eftermiddagens och kvällens mat.",
+      "Planering och tillagning av specialkost.",
+      "Dish och städning av köket.",
+      
+    ],
+  },
+
   {
     title: "Storkökskock, ykesutbildning ",
     company_name: "Studium Restaurang Vux, Göteborg",

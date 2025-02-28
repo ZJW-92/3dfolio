@@ -60,17 +60,25 @@ const Navbar = () => {
               <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
           ))}
+          {/*
           <Link to="/CV_Zhijie.pdf" className='flex items-center gap-2'
           onClick={() => {
             setActive("");
             window.open(pdf);
           }}
+      
         >
+            </Link>
+          */}
+           
+          {/*
           <p className='text-secondary hover:text-white text-[18px] font-medium cursor-pointer flex '>
             Resume &nbsp;
-            {/* <span className='sm:block hidden'> | CV</span> */}
+             <span className='sm:block hidden'> | CV</span> 
           </p>
-           </Link>
+          */}
+          
+         {/*move </Link> after line 78 p tag for showing resume ! */}
         </ul>
 
         <div className='sm:hidden flex flex-1 justify-end items-center'>
@@ -100,17 +108,23 @@ const Navbar = () => {
                   <a href={`#${nav.id}`}>{nav.title}</a>
                 </li>
               ))}
+              {/*
               <Link className='flex items-center gap-2'
              onClick={() => {
             setActive("");
             window.open(pdf);
           }}
         >
+           </Link>
+        */}
+
+          {/*
           <p className='text-secondary hover:text-white text-[18px] font-medium cursor-pointer flex '>
             Resume &nbsp;
-            {/* <span className='sm:block hidden'> | CV</span> */}
+           <span className='sm:block hidden'> | CV</span> 
           </p>
-           </Link>
+          */}
+          {/*move line 128 after line 125 p tag for showing resume */}
             </ul>
           </div>
         </div>
