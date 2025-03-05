@@ -47,12 +47,11 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[20px] max-w-3xl leading-[35px]'
       >
-       ⭑ Jag bemöter människor med artighet och respekt. <br/>
-       ⭑ Jag är aktivt och trivs att arbeta i team och självständigt.<br/>
-       ⭑ Jag är punktlig, noggrann, har förmåga att arbeta under stress.<br/>
-       ⭑ Jag är ansvarsfull, disciplinerad, organiserad, tar mina egna initiativ och lyder alla villkor på jobbet.<br/>
-       ⭑ Jag är fysisk god, självmotiverad med en stark vilja att lära mig nya färdigheter. <br/>
-       ⭑ Jag har stor passion och jag siktar på att söka nya utmaningar.  <br/>
+       ⭑ Bemöta människor med artighet och respekt. <br/>
+       ⭑ Aktivt och trivs att arbeta i team och självständigt.<br/>
+       ⭑ Punktlig, noggrann, har förmåga att arbeta under stress.<br/>
+       ⭑ Fysisk god, självmotiverad med en stark vilja att lära mig nya färdigheter. <br/>
+       ⭑ Ansvarsfull, disciplinerad, organiserad, tar mina egna initiativ och lyder alla villkor på jobbet.<br/>
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

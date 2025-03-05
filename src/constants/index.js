@@ -128,11 +128,12 @@ const experiences = [
     iconBg: "#383E56",
     date: "mars 2025 - april 2025",
     points: [
-      "Förberedelse av frukost och lunch.",
-      "Tillagning av dagens huvudmåltider.",
-      "Förberedelser inför eftermiddagens och kvällens mat.",
+      "Förberedelser för frukost och lunch.",
+      "Obehindrat kunna skala/skära/hacka grönsaker med tempo.",
+      "Att bistå vid tillredning av dagens huvudmåltider.",
       "Planering och tillagning av specialkost.",
-      "Dish och städning av köket.",
+      "Disk och städning av köket.",
+      "Medverka i arbetet med egenkontroll.", 
       
     ],
   },
@@ -147,6 +148,8 @@ const experiences = [
       "Matlagning 1",
       "Matlagning 2",
       "Matlagning 3",
+      "Specialkoster",
+      "Service och bemötande",
       "Hygien med egenkontroll",
       "Livsmedel och näringskunskap",
       

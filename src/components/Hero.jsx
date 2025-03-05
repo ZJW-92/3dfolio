@@ -20,10 +20,10 @@ const Hero = () => {
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-300`}>
           <br/><br/>
-        Född och växte upp i Shanghai, Kina. 🇨🇳 <br/>
-        Nyinflyttad till Sverige. 🇸🇪 <br/>
-        Brinner av matlagning i köket. 👨‍🍳 <br/>
-        Njuta av vacker uppläggning om mat. 🤳 🥘 <br/>
+        ⭑ Född och växte upp i Shanghai, Kina. 🇨🇳 <br/>
+        ⭑ Nyinflyttad till Sverige. 🇸🇪 <br/>
+        ⭑ Besitta stor passion och brinna av matlagning i köket. 👨‍🍳 <br/>
+        ⭑ Njuta av vacker uppläggning om mat. 🤳 🥘 <br/>
          
           </p>
         </div>
