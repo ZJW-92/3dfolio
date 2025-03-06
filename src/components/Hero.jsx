@@ -24,7 +24,7 @@ const Hero = () => {
         ⭑ Nyinflyttad till Sverige. 🇸🇪 <br/>
         ⭑ Besitta stor passion och brinna av matlagning i köket. 👨‍🍳 <br/>
         ⭑ Njuta av vacker uppläggning om mat. 🤳 🥘 <br/>
-         
+        ⭑ Glad att tillhandahålla gäster en storartad måltidsupplevelse. 👍💯
           </p>
         </div>
       </div>
