@@ -44,8 +44,8 @@ const Navbar = () => {
         >
           <img src={zjw_logo} alt='logo' className='w-24 h-14 object-contain' />
           <p className='text-secondary hover:text-white text-[18px] font-medium cursor-pointer flex '>
-            Zhijie &nbsp;
-            <span className='sm:block hidden'> | Wei</span>
+           Chi Kit 🇭🇰🇲🇴&nbsp;
+            <span className='sm:block hidden'> | Zhi Jie 🇨🇳</span>
           </p>
         </Link>
         <ul className='list-none hidden sm:flex flex-row gap-10'>
