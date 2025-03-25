@@ -128,10 +128,10 @@ const experiences = [
     iconBg: "#383E56",
     date: "mars 2025 - april 2025",
     points: [
-      "Förberedelser för frukost och lunch.",
-      "Obehindrat kunna skala/skära/hacka grönsaker med tempo.",
+      "Obehindrat kunna skära/grovhacka/finhacka grönsaker med tempo.",
+      "Självständigt använda kokgryta, iCombi ugn, grönsaksskärare, köttskärmaskin. ",
       "Att bistå vid tillredning av dagens huvudmåltider.",
-      "Planering och tillagning av specialkost.",
+      "Att preppa kvällensmaträtter. ",
       "Disk och städning av köket.",
       "Medverka i arbetet med egenkontroll.", 
       

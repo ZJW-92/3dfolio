@@ -22,8 +22,8 @@ const Hero = () => {
           <br/><br/>
         ⭑ Född och växte upp i Shanghai, Kina. 🇨🇳 <br/>
         ⭑ Nyinflyttad till Sverige. 🇸🇪 <br/>
-        ⭑ Besitta stor passion och brinna av matlagning i köket. 👨‍🍳 <br/>
-        ⭑ Njuta av vacker uppläggning om mat. 🤳 🥘 <br/>
+        ⭑ Besitta stor passion och brinna av matlagning i storköket. 👨‍🍳 <br/>
+        ⭑ Njuta av vacker uppläggning om maträtter. 🤳 🥘 <br/>
         ⭑ Glad att tillhandahålla gäster en storartad måltidsupplevelse. 👍💯
           </p>
         </div>
